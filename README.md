@@ -1,75 +1,28 @@
-<h1 align="center"><project-name></h1>
+<h1 align="center">Tensorflow GPU Template</h1>
 
-<p align="center"><project-description></p>
+<p align="center">Start a new tensorflow project in a vscode dev container with cuda enabled</p>
 
-## Links
+## Purpose
 
-- [Repo](https://github.com/Rohit19060/<project-name> "<project-name> Repo")
+To avoid compatibility issues with other projects, and make it easier to start a new gpu project, I've found its easier to begin with a template that has everything configured already. This template has the minimum amount of configuration I usually need to get a project up and running.
 
-- [Live](<Homepage url> "Live View")
+Quick Note: I know it says "Tensorflow" on the box, but this template don't actually install tensorflow or any other dependencies. It just sets up the cuda and cudnn environment for you to start a new project.
 
-- [Bugs](https://github.com/Rohit19060/<project-name>/issues "Issues Page")
+## Installed Verisons
 
-- [API](<API Link> "API")
+- CUDA: 11.4.2
+- cuDNN: 8.2.4
+- Ubuntu 20.04
 
-## Screenshots
+## Project Setup
 
-![Home Page](/screenshots/1.png "Home Page")
+1. Install the dev container extension from the [vscode marketplace](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers) ** Requires docker to be installed **
+2. Launch the dev container
 
-![](/screenshots/2.png)
+** Note: ** This project is configured to use Nvidia GPUs and run on a computer with Ubuntu installed. 
 
-![](/screenshots/3.png)
+I have had success with running this project using Windows 11 with wsl but have moved everything over to Ubuntu because of system freezing issues. If you are using Windows 10 or 11 with wsl and are not expereincing issues, please submit a pull request with an explainantion of your expereince. I'd love to move back to windows in the future but I'm afraid of the system freezing issues.
 
-## Available Commands
+If you are using MacOS, I leave the configuration as an exercise to the reader.
 
-In the project directory, you can run:
-
-### `npm start" : "react-scripts start"`,
-
-The app is built using `create-react-app` so this command Runs the app in Development mode. Open [http://localhost:3000](http://localhost:3000) to view it in the browser. You also need to run the server file as well to completely run the app. The page will reload if you make edits.
-You will also see any lint errors in the console.
-
-### `"npm run build": "react-scripts build"`,
-
-Builds the app for production to the `build` folder. It correctly bundles React in production mode and optimizes the build for the best performance. The build is minified and the filenames include the hashes. Your app will be ready to deploy!
-
-### `"npm run test": "react-scripts test"`,
-
-Launches the test runner in the interactive watch mode.
-
-### `"npm run dev": "concurrently "nodemon server" "npm run start"`,
-
-For running the server and app together I am using concurrently this helps a lot in the MERN application as it runs both the server (client and server) concurrently. So you can work on them both together.
-
-### `"serve": "node server"`
-
-For running the server file on you can use this command.
-
-### `npm run serve`
-
-## Built With
-
-- JavaScript
-- Node
-- NPM
-- Webpack
-- HTML
-- CSS
-
-## Future Updates
-
-- [ ] Reliable Storage
-
-## Author
-
-**Rohit Jain**
-
-- [Profile](https://github.com/rohit19060 "Rohit jain")
-- [Email](mailto:rohitjain19060@gmail.com?subject=Hi "Hi!")
-- [Website](https://kingtechnologies.in "Welcome")
-
-## 🤝 Support
-
-Contributions, issues, and feature requests are welcome!
-
-Give a ⭐️ if you like this project!
+Happy building! 🙂️
