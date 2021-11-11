@@ -17,9 +17,13 @@ Quick Note: I know it says "Tensorflow" on the box, but this template don't actu
 ## Project Setup
 
 1. Install the dev container extension from the [vscode marketplace](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers) ** Requires docker to be installed **
+
+- [Docker](https://docs.docker.com/engine/install/ubuntu/)
+- [NVIDIA Container Toolkit - Ubuntu](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html#setting-up-nvidia-container-toolkit)
+
 2. Launch the dev container
 
-** Note: ** This project is configured to use Nvidia GPUs and run on a computer with Ubuntu installed. 
+** Note: ** This project is configured to use Nvidia GPUs and run on a computer with Ubuntu installed.
 
 I have had success with running this project using Windows 11 with wsl but have moved everything over to Ubuntu because of system freezing issues. If you are using Windows 10 or 11 with wsl and are not expereincing issues, please submit a pull request with an explainantion of your expereince. I'd love to move back to windows in the future but I'm afraid of the system freezing issues.
 
