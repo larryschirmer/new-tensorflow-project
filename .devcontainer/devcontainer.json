@@ -20,6 +20,7 @@
     "ms-python.vscode-pylance",
     "ms-toolsai.jupyter",
     "ms-toolsai.jupyter-keymap",
+    "mhutchie.git-graph",
     "github.copilot",
     "github.vscode-pull-request-github",
     "eamodio.gitlens"
